@@ -1,0 +1,137 @@
+/* SECTION Element Selectors */
+
+body{
+    margin: 0;
+}
+
+/* SECTION Class Selectors */
+
+.navy-background{
+    background-color: #061130;
+}
+
+/* NOTE Header */
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-align{
+    align-items: center;
+}
+
+.logo-style{
+    padding: 15px;
+    display: block;
+}
+
+.card-flex{
+    display: flex;
+    align-items: center;
+}
+
+.card-margin{
+    margin-right: 25px;
+}
+
+.card-text-style{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lets-chat-button{
+    background-color: #0b56ff;
+    border-radius: 4px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}   
+
+/* NOTE Main */
+
+.welcome-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcome-text-style{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.welcome-paragraph-style{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.welcome-whole-style{
+    max-width: 18%;
+}
+
+.welcome-text-padding{
+    padding-left: 15px;
+}
+
+.services-style{
+    color: #FAFD61;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.world-style{
+    padding: 15px;
+    max-width: 60vw;
+}
+
+/* NOTE Footer */
+
+.link-text-style{
+    color: #4c4cff;
+    text-decoration: underline;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-background-color{
+    background-color: #fefefe;
+}
+
+.link-flex-padding{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.motto-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagline-text{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.tagline-margin-bottom{
+    margin-bottom: 0;
+}
+
+.tagline-sentence-text{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.motto-background-color{
+    background-color: #f0eded;
+}
