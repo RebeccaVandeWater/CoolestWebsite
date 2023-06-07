@@ -87,6 +87,7 @@ body{
 .world-style{
     padding: 15px;
     max-width: 60vw;
+    object-fit: cover;
 }
 
 /* NOTE Footer */
@@ -135,3 +136,20 @@ body{
 .motto-background-color{
     background-color: #f0eded;
 }
+
+/* SECTION Media Queries */
+
+@media screen and (max-width: 600px) {
+    .welcome-flex{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+} 
+    
+@media screen and (max-width: 600px) {
+    .welcome-whole-style{
+        max-width: 90%;
+    }
+}
+
